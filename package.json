@@ -1,0 +1,9 @@
+{
+  "name": "free-probe",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Connectivity probe: /health, WebSocket echo, outbound network self-check. No secrets.",
+  "engines": { "node": ">=18" },
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "ws": "^8.18.0" }
+}
