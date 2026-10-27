@@ -4,6 +4,6 @@
   "private": true,
   "description": "Connectivity probe: /health, WebSocket echo, outbound network self-check. No secrets.",
   "engines": { "node": ">=18" },
-  "scripts": { "start": "node server.js" },
+  "scripts": { "start": "sh start.sh" },
   "dependencies": { "ws": "^8.18.0" }
 }
